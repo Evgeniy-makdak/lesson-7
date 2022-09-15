@@ -2,7 +2,7 @@ from utils import *
 
 
 def main():
-    user_input_1 = input(f"Введите номер студента.\nПользователь: ")
+    user_input_1 = input(f"Введите id студента.\nПользователь: ")
     dict_student = get_student_by_pk(int(user_input_1))
     if not dict_student:
         print("У нас нет такого студента")
