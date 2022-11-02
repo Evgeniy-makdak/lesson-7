@@ -20,7 +20,7 @@ def get_student_by_pk(pk):
     return dict()
 
 
-# print(get_student_by_pk(2))
+#   print(get_student_by_pk(2))
 
 #   Получаем профессиональные навыки. Возвращается словарь с навыками.
 def get_profession_by_title(title):
